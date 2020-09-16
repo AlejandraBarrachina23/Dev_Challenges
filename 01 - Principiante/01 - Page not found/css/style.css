@@ -1,0 +1,87 @@
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Space Mono", monospace;
+}
+
+header {
+  font-family: "Inconsolata", monospace;
+  text-transform: uppercase;
+  max-width: 1200px;
+  padding: 0.5rem;
+  margin: 0 auto;
+  font-size: 1.3rem;
+}
+
+section {
+  max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.imagen {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  margin: 2rem;
+}
+
+.imagen img {
+  width: 100%;
+  min-width: 20rem;
+}
+
+.descripcion {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+  min-width: 25rem;
+}
+
+.descripcion h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  font-family: "Inconsolata", monospace;
+  color: #333333;
+}
+
+.descripcion p {
+  font-size: 1rem;
+  font-family: "Space Mono", monospace;
+  color: #4f4f4f;
+  max-width: 20rem;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #333333;
+  color: #fff;
+  padding: 1.3rem;
+  font-family: "Inconsolata", monospace;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+footer {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding: 2rem;
+  font-size: 14px;
+  font-weight: 700;
+}
+/*# sourceMappingURL=style.css.map */
